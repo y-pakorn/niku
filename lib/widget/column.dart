@@ -134,6 +134,11 @@ class NikuColumn extends NikuCore {
     this.key,
   });
 
+  NikuColumn size(MainAxisSize size) {
+    _mainAxisSize = size;
+    return this;
+  }
+
   /// Set main axis alignment
   ///
   /// Equivalent to
