@@ -5,3 +5,5 @@ export 'iconButton.dart';
 export 'text.dart';
 export 'selectableText.dart';
 export 'textField.dart';
+export 'column.dart';
+export 'row.dart';
